@@ -20,3 +20,24 @@
 * △ = 已繳交，但內容不完整或需修正。
 * X = 未在期限內繳交，或是明顯「參考」其它同學的作業。
 
+| 學號      | 10/13 | 10/20 | 10/27 | 11/3 | 11/10 | 11/17  | 11/24 | 12/1 | 12/8 |
+| --------- |:-----:|:-----:|:-----:|:----:|:--:|:--:|:--:|:--:|:--:|
+| [10446001](https://github.com/10446001) | O | | | | | | | | |
+| [10446002](https://github.com/maryyu456) | O | | | | | | | | |
+| [10446003](https://github.com/Peggy10446003) | O | | | | | | | | |
+| [10446004](https://github.com/leslie0726) | O | | | | | | | | |
+| [10446005](https://github.com/JiaWeiXie) | O | | | | | | | | |
+| [10446006](https://github.com/chiaqingwu) | O | | | | | | | | |
+| [10446007](https://github.com/IffyArt) | O | | | | | | | | |
+| [10446008](https://github.com/Drunces) | O | | | | | | | | |
+| [10446011](https://github.com/jerry0513) | O | | | | | | | | |
+| [10446012](https://github.com/10446012) | O | | | | | | | | |
+| [10446013](https://github.com/mushroomchen0429) | O | | | | | | | | |
+| [10446014](https://github.com/10446014) | O | | | | | | | | |
+| [10446088](https://github.com/jchsuHsu) | O | | | | | | | | |
+| [10536008](https://github.com/ting434252) | O | | | | | | | | |
+| [10536016](https://github.com/Luck626kkk) | O | | | | | | | | |
+| [10636005](https://github.com/chiiien) | O | | | | | | | | |
+| [10636008](https://github.com/s920613a) | O | | | | | | | | |
+| [10636014](https://github.com/zhang-rongzhen) | O | | | | | | | | |
+| [10636024](https://github.com/changyuchieh) | O | | | | | | | | |
