@@ -27,6 +27,8 @@
 - SITCON x HK
 - TDOH (這週六)
 
-以上就是我的自我介紹，下方連結是架在GitHub上的自我介紹靜態網頁，不過東西都還在緩慢持續增長中
-- [Vense](http://vense.me)
-
+以上就是我的自我介紹，
+- 下方連結是架在GitHub上的自我介紹靜態網頁，不過東西都還在緩慢持續增長中
+    - [Vense](http://vense.me)
+- Blog
+    - [Mediumn](https://medium.com/@sq851023)
