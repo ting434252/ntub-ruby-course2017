@@ -19,6 +19,8 @@
 	
 	KOBUKURO
 	
+> My Blog  [https://medium.com/@mary.yu456](https://medium.com/@mary.yu456)
+	
 ## My artwork
 
 ![Imgur](https://i.imgur.com/vz3OD9s.png "flowerGirl")
