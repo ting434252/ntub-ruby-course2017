@@ -5,7 +5,7 @@
 > - 生日：12/02
 > - 星座：射手座
 > - Email：*10446001@ntub.edu.tw*
-
+> - Blog：https://medium.com/@chi19961202
 - #### 興趣：
      - 逛街
      - 旅行
