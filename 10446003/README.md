@@ -10,3 +10,5 @@ At present I am studying at the National Taipei University of Business (NTUB) , 
 I like many things, especially music and reading.
 I think I'm somewhat on the shy side.
 I hope I will have the chance to develop my interests and capability in this course.
+
+my blog: PeiShanNTUB.blogspot.com
