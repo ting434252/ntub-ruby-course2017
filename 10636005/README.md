@@ -7,3 +7,5 @@
 * 興趣：運動、旅行、聽音樂、看劇
 * 聯絡資料：chiiien9649@gmail.com
 * [GitHub](https://github.com/chiiien/)
+* [Medium](https://medium.com/@chiiien9649)
+* [Facebook](https://www.facebook.com/smilechen32)
