@@ -4,6 +4,7 @@
 * 星座：天秤座
 * 居住地：新北市三峽區
 * Email：`linda85923@gmail.com`
+* Blog：[Medium](https://medium.com/@10446014/)
 * 興趣
     * 旅行
     * 運動
