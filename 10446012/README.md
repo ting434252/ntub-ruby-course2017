@@ -6,17 +6,6 @@
 
 * Email：`w359612@yahoo.com.tw`
 
-* 興趣
-    * 看電影
-    * 打羽球
-
-* 專業證照
-    * 會計人工記帳-丙級
-
-* 學歷
-    * 就學中
-        * 國立台北商業大學
-    * 已畢業
-        * 臺北市市立士林高商
-        * 明志國中
-        * 厚德國小
+* 社群
+    * 臉書：[張家寧](https://www.facebook.com/profile.php?id=100001747481118)
+    * Blog：[Medium](https://medium.com/@mo359612)
