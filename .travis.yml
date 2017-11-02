@@ -7,3 +7,5 @@ branches:
   only:
   - master
   - homework004
+script:
+  - rspec --pattern */*_spec.rb
