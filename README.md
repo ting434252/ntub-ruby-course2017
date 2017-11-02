@@ -24,7 +24,7 @@
 | --------- |:-----:|:-----:|:-----:|:----:|:--:|:--:|:--:|:--:|:--:|
 | [10446001](https://github.com/10446001) | O | O | O | | | | | | |
 | [10446002](https://github.com/maryyu456) | O | O | O | | | | | | |
-| [10446003](https://github.com/Peggy10446003) | O | O | | | | | | | |
+| [10446003](https://github.com/Peggy10446003) | O | O | O | | | | | | |
 | [10446004](https://github.com/leslie0726) | O | O | O | | | | | | |
 | [10446005](https://github.com/JiaWeiXie) | O | O | O | | | | | | |
 | [10446006](https://github.com/chiaqingwu) | O | O | O | | | | | | |
