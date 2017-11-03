@@ -7,24 +7,21 @@ class Order
   def initialize(products=[])
 
     @state = "pending"
-    if !products.empty?
-      @items = products
-    end
+    @items = products
+
   end
 
   def pay!
 
     @state = "paid"
-    "paid"
+
   end
 
   def total_price
-    
-    if !@items.empty?
-      @items.map { |item|  item_total(item) }.inject(:+)
-    else
-      0
-    end
+
+    return 0 if @items.empty?
+    return @items.inject(0){|total, item| total+item_total(item)}
+
   end
 
   private
