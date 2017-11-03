@@ -19,12 +19,18 @@ class Order
   end
 
   def total_price
-
+    
     if !@items.empty?
-      @items.map { |item|  item[:quantity]*item[:price] }.inject(:+)
+      @items.map { |item|  item_total(item) }.inject(:+)
     else
       0
     end
+  end
+
+  private
+  def item_total(item)
+
+    item[:quantity].to_i*item[:price].to_i
   end
 
 end
