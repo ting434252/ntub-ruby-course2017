@@ -6,4 +6,8 @@ class Order
     @products = products
   end
 
+  def pay!
+    @state = "paid"
+  end
+
 end
