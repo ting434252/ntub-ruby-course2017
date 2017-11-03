@@ -1,9 +1,24 @@
 class Order
-  def initialized(status)
-    @status = status
+  attr_accessor :status
+
+  def initialize(products)
+    @status = "pending"
+    
   end
   
   def state
-    @status = "pending"
+    @status 
   end
+
+  def pay!
+    @status = "paid"
+  end
+
+  def items(products)
+    
+  end  
+
+  
+
 end
+
