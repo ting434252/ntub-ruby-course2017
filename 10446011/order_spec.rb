@@ -10,22 +10,22 @@ RSpec.describe Order do
       expect(order.state).to eq "pending"
     end
 
-    it "付款後狀態變成已 paid（已付款）" do
-      order = Order.new
-      order.pay!   # 進行付款
+    # it "付款後狀態變成已 paid（已付款）" do
+    #   order = Order.new
+    #   order.pay!   # 進行付款
 
-      expect(order.state).to eq "paid"
-    end
+    #   expect(order.state).to eq "paid"
+    # end
   end
 
-  describe "訂單功能" do
-    it "計算訂單金額" do
-      order = Order.new(products)
+  # describe "訂單功能" do
+  #   it "計算訂單金額" do
+  #     order = Order.new(products)
 
-      expect(order.items.count).to be 3    # 共有 3 項商品
-      expect(order.total_price).to be 155  # 總計 155 元
-    end
-  end
+  #     expect(order.items.count).to be 3    # 共有 3 項商品
+  #     expect(order.total_price).to be 155  # 總計 155 元
+  #   end
+  # end
 
   private
   def products
