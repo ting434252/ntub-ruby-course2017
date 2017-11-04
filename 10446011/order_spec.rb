@@ -18,14 +18,14 @@ RSpec.describe Order do
     end
   end
 
-  # describe "訂單功能" do
-  #   it "計算訂單金額" do
-  #     order = Order.new(products)
+  describe "訂單功能" do
+    it "計算訂單金額" do
+      order = Order.new(products)
 
-  #     expect(order.items.count).to be 3    # 共有 3 項商品
-  #     expect(order.total_price).to be 155  # 總計 155 元
-  #   end
-  # end
+      expect(order.items.count).to be 3    # 共有 3 項商品
+      expect(order.total_price).to be 155  # 總計 155 元
+    end
+  end
 
   private
   def products
