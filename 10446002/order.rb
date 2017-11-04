@@ -7,4 +7,9 @@ class Order
     #傳參數給實體變數
     @products = product
   end
+  
+  def pay!
+    #已付款狀態
+    @state = "paid"
+  end
 end
