@@ -12,4 +12,15 @@ class Order
     #已付款狀態
     @state = "paid"
   end
+  
+  def items
+    #回傳products的商品項目數
+    @products
+  end
+
+  def total_price
+    #計算products的訂單金額
+    total = 0
+    @products.reduce(0) { |total, product| total + product[:quantity] * product[:price] }
+  end
 end
