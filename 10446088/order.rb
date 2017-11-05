@@ -8,4 +8,8 @@ class Order
     @status
   end
 
+  def pay!
+    @status = "paid"
+  end
+  
 end
