@@ -3,8 +3,8 @@ class Order
   attr_reader :products         #可讀
 
   def initialize(products=[])
-  @state = "pending"  #狀態為未處理
-  @products = products
+    @state = "pending"  #狀態為未處理
+    @products = products
   end
   
   def pay!
