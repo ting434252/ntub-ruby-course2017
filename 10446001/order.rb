@@ -17,10 +17,8 @@ class Order
 
   def total_price
     total = 0
-    for product in @products            #products陣列
-      total += product[:quantity] * product[:price]         #數量*價格
+    @products.reduce(0) { |total, product| total + product[:quantity] * product[:price] }
     end
-    total
   end
 
 end
