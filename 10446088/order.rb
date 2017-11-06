@@ -1,5 +1,4 @@
 class Order
-  attr_reader :status
 
   def initialize
     @status = "pending"
@@ -7,6 +6,10 @@ class Order
 
   def state
     @status
+  end
+
+  def pay!
+    @status = "paid"
   end
 
 end
