@@ -5,6 +5,8 @@ class Order
         @state = 'pending'
     end
     
-
+    def pay!
+        @state = 'paid'
+    end
 
 end
