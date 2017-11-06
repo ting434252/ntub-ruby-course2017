@@ -3,5 +3,9 @@ class Order
   
   def initialize
     @state = "pending"
-  end 
+  end
+  
+  def pay!
+    @state = "paid"
+  end
 end
