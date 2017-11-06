@@ -18,7 +18,6 @@ class Order
   def total_price
     total = 0
     @products.reduce(0) { |total, product| total + product[:quantity] * product[:price] }
-    end
   end
 
 end
