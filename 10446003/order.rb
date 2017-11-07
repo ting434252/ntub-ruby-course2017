@@ -10,5 +10,9 @@ class Order
   def state
     @status
   end
+  
+  def pay!
+    @status = "paid"
+  end
 end
 
