@@ -1,9 +1,9 @@
 class Order
   attr_reader :state
   
-  def initialize(productsArray=[])
+  def initialize(products_array=[])
     @state = "pending"
-    @products = productsArray
+    @products = products_array
   end
   
   def pay!
