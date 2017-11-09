@@ -3,6 +3,11 @@ class Order
 
     def initialize(products=[])
         @state = "pending"
+        @products = products
+    end
+
+    def pay!
+        @state = "paid"
     end
 
 end
