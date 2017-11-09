@@ -10,6 +10,20 @@ class Order
         @state = "paid"
     end
 
+    def items
+        @products
+    end
+
+    def total_price
+        amount = 0
+        for product in @products
+            price, quantity = product[:price], product[:quantity]
+            if price>0 && quantity>0
+            amount += price * quantity 
+            end
+        end
+        amount
+    end
 end
 
 
