@@ -1,32 +1,24 @@
 # 作業 004
 
 class Order
-  attr_reader :status, :goods
-  
+  attr_reader :state, :goods
+
   def initialize(goods = []) #給定預設值
-    @status = "pending"
+    @state = "pending"
     @goods = goods
   end
-  
-  def state
-    @status
-  end
-  
+
   def pay!
-    @status = "paid"
+    @state = "paid"
   end
-  
+
   def items
     @goods
   end
-  
-  def total_price
-    total = 0
-    goods.each do |good|
-      total += good[:quantity] * good[:price]
-    end
-    return total
-  end
-  
-end
 
+  def total_price
+    goods.reduce(0) {|sum, good| sum + good[:quantity] * good[:price]}
+
+  end
+
+end
