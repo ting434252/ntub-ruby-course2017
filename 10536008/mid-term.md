@@ -38,8 +38,7 @@ p profile["name"]
 
 會得到什麼結果? 為什麼?
 
-
-      會得到nil
+      會得到nil
       因為Hash 的key是 name: 不是 "name"
       name: 是symbol(符號)， "name"是字串
 
@@ -62,8 +61,8 @@ Bank.transfer(10)
 
 上面這段程式碼執行後會發生什麼事？為什麼？如果有錯誤又該如何修正？
 
-      會發生undefined method的錯誤
-
+        `會發生undefined method的錯誤`
+ 
 5. (10 分) 請問以下方法：
 
 ```ruby
@@ -110,7 +109,12 @@ user_profile = {name: "kk", age: 18, blood_type: :b_negative}
 
 1. (10 分) 請簡述 `bundle install` 指令的用途。
 
+            在Ruby安裝套件，要先在gemfile裡把套件的名稱及版本放進去，
+            再到終端機執行bundel install bundeler就會去獲取你所指定的版本的套件
+
 2. (10 分) 請說明 `rails db:migrate` 這個指令的用途是什麼？
+
+          `修改資料庫結構，只會執行一次，要記得存檔再執行`
 
 3. (10 分) 假設某個 Controller 的程式碼如下：
 
@@ -131,6 +135,12 @@ end
 請問：
 - 第 3 行的 `@books` 前面的那個 `@` 是什麼意思？如果把 `@` 拿掉會發生什麼事？
 - 第 7 行以及第 8 行的 `@book`，如果把 `@` 拿掉會發生什麼事？為什麼？
+
+
+          1.加上@就是實例變數(instance variable)可以在同一個class的各種method之間互相傳遞 
+            如果拿掉就會讀不Book.all的資料    
+          2.會導致def index的@book讀取不到update裡@book的內容，因為沒有@就不能在method將book的資料互相傳遞
+        
 
 ## Git 題目 (20 分)
 
