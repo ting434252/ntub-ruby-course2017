@@ -11,11 +11,17 @@
 
 ```ruby
 class Cat
-  # 請完成實作
+  def initialize(name)
+    @name = name
+  end
+  
+  def name
+    puts "#{@name}"
+  end
 end
 
 kitty = Cat.new("kitty")
-puts kitty.name  # 在畫面上印出 kitty 字樣
+puts kitty.name 
 ```
 
 2. (5 分) 假設有個 Hash：
@@ -32,7 +38,16 @@ p profile["name"]
 
 會得到什麼結果? 為什麼?
 
+
+      會得到nil
+      因為Hash 的key是 name: 不是 "name"
+      name: 是symbol(符號)， "name"是字串
+
 3. (5 分) 如果要在 1 到 100 的數字當中，任意取出 5 個不重複的亂數，你會怎麼做？
+
+```ruby
+puts [*1..100].sample(5)
+```
 
 4. (10 分)
 ```ruby
@@ -47,6 +62,8 @@ Bank.transfer(10)
 
 上面這段程式碼執行後會發生什麼事？為什麼？如果有錯誤又該如何修正？
 
+      會發生undefined method的錯誤
+
 5. (10 分) 請問以下方法：
 
 ```ruby
@@ -54,6 +71,10 @@ link_to "刪除", products_path(product), method: :delete, class: "btn btn-defau
 ```
 
 `link_to` 方法共有幾個參數？為什麼？
+
+        三個參數，因為最後一個參數是 Hash 的話，大括號可以被省略
+        還原之後是變成 link_to "刪除", products_path(product), {method: :delete, class: "btn btn-default"}
+        最後一個參數是Hash
 
 6. (10 分) 在 Ruby 裡面常會看到冒號的寫法，例如：
 
@@ -78,6 +99,12 @@ user_profile = {name: "kk", age: 18, blood_type: :b_negative}
 ```
 
 請問，這三種寫法分別代表什麼意思呢？
+
+        靠右邊:表示它是一個symbol(符號) 寫法是前面加上一個冒號
+        靠左邊:表示它無法獨立存在
+        兩邊都有:表示在hash裡key和value都是symbol
+      
+      
 
 ## Rails 題目 (30 分)
 
